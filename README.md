@@ -42,6 +42,8 @@ For **CeleryExecutor** :
 
     docker-compose -f docker-compose-CeleryExecutor.yml up -d
     T03SS2AK1D0/B03SS0AT0KD/j8BIVRQiXYt6pOIBa6Nrj2bh
+    
+    T03SS2AK1D0/B03T014FP3L/qGbYTGovTUjlVj2ktxHN6ie5
 
 NB : If you want to have DAGs example loaded (default=False), you've to set the following environment variable :
 
