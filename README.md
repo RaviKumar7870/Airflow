@@ -36,6 +36,7 @@ If you want to run another executor, use the other docker-compose.yml files prov
 For **LocalExecutor** :
 
     docker-compose -f docker-compose-LocalExecutor.yml up -d
+    curl -X POST -H "Content-type:application/json" --data "{\"text\":\"A New Program Has Just Been Posted!!!\"}" "https://hooks.slack.com/services/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"
 
 For **CeleryExecutor** :
 
